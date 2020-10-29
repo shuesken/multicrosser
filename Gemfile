@@ -28,6 +28,7 @@ gem 'redis', '~> 3.0'
 gem 'nokogiri'
 gem 'faraday'
 gem 'webpacker', '>= 4.0.x'
+gem 'oj'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

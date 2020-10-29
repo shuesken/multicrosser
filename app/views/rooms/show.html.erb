@@ -3,9 +3,7 @@
   <%= Time.at(@parsed_crossword['date']/1000).to_date.strftime("%A %-d %B") %> -
   <%- if @parsed_crossword['creator'] -%>
     Set by <%= @parsed_crossword['creator']['name'] %>
-    -
   <%- end -%>
-  <a href="<%= @url %>">Published by the Guardian</a>
 </p>
 
 <%= content_tag(:div, '', class: 'js-crossword', data: {

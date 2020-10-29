@@ -1,5 +1,5 @@
 class Series
-  SERIES = ['quiptic', 'quick', 'weekend', 'cryptic', 'speedy', 'prize', 'everyman']
+  SERIES = ['quiptic', 'quick', 'weekend', 'cryptic', 'speedy', 'prize', 'everyman', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
   def self.get_all
     keys = SERIES.map{|name| "crossword-series-#{name}"}
