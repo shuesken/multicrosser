@@ -48,7 +48,7 @@ class Crossword
   end
 
   def redis
-    @redis ||= Redis.new
+    @redis ||= Rails.env.production? ? Redis.new(path: ENV['REDIS_PATH']) : Redis.new
   end
 
 end

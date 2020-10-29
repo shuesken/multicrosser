@@ -5,7 +5,7 @@ class CrosswordFeed
   end
 
   def self.redis
-    @redis ||= Redis.new
+    @redis ||= Rails.env.production? ? Redis.new(path: ENV['REDIS_PATH']) : Redis.new
   end
 
   def self.load_nyt
