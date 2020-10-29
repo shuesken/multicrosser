@@ -32,6 +32,6 @@ class MovesChannel < ApplicationCable::Channel
   end
 
   def redis
-    @redis ||= Rails.env.production? ? Redis.new(path: ENV['REDIS_PATH']) : Redis.new
+    @redis ||= Redis.new
   end
 end
