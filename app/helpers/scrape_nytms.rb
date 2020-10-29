@@ -76,5 +76,3 @@ def get_nyt_data(date)
   end
   return entries
 end
-
-puts getNYT('201022')
