@@ -117,8 +117,8 @@ class RoomsController < ApplicationController
       end
     end
     data = {
-      'id' => 'simple/1',
-      'number' => 1,
+      'id' => date,
+      'number' => date,
       'name' =>'NYT',
       'date' => 1542326400000,
       'entries' => entries,
