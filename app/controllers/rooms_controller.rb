@@ -128,7 +128,7 @@ class RoomsController < ApplicationController
         'cols'=>solutions.length,
         'rows'=>solutions[0].length
       }, 
-      'crosswordType'=>'nyt'
+      'crosswordType'=>'everyman' # review this, needs to be one of the guardian ones to work in chrome/safari
     }
     Oj.dump data
   end
