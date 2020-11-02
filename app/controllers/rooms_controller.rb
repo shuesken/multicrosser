@@ -136,7 +136,6 @@ class RoomsController < ApplicationController
   end
 
   def get_zeit
-    puts 'assigning json'
     json = %q|{
   "id": 2561,
   "number": 2561,
