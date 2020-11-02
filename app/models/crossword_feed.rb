@@ -1,6 +1,7 @@
 class CrosswordFeed
   def self.load
-    self.load_nyt
+    self.load_zeit
+    # self.load_nyt
     # self.load_guardian
   end
 
@@ -46,5 +47,16 @@ class CrosswordFeed
       )
       crossword.save
     end
+  end
+
+  def self.load_zeit 
+    crossword = Crossword.new(
+      "title" => 'Zet',
+      "source" => 'zeit',
+      "series" => 'zeit',
+      "identifier" => '2561',
+      "date" => Date.today.to_datetime.xmlschema
+    )
+    crossword.save
   end
 end
