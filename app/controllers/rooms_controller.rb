@@ -5,8 +5,6 @@ class RoomsController < ApplicationController
     raise ActionController::RoutingError.new('Source not Found') unless params[:source].in?(['guardian', 'nyt', 'zeit'])
     raise ActionController::RoutingError.new('Series not Found') unless params[:series].in?(Series::SERIES)
     @crossword = crossword
-    puts 'here is the crossword'
-    puts crossword
     @parsed_crossword = JSON.parse(crossword)
     @url = url
   end
@@ -987,8 +985,6 @@ class RoomsController < ApplicationController
   },
   "crosswordType": "quiptic"
 }|
-  puts 'here is json'
-  puts json
   cw = JSON.parse(json)
   Oj.dump cw
   end
