@@ -50,7 +50,6 @@ class CrosswordFeed
   end
 
   def self.load_zeit 
-    puts 'loading zeit'
     crossword = Crossword.new(
       "title" => 'Zet',
       "source" => 'zeit',
