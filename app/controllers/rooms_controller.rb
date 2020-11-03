@@ -148,7 +148,7 @@ class RoomsController < ApplicationController
       "humanNumber": "1",
       "clue": "Polit-Frage: Muss es immer das sein, das unsere 6 senkrecht absichert — bis zum letzten Tropfen? ",
       "direction": "down",
-      "length": 4,
+      "length": 10,
       "group": [
         "1-down"
       ],
@@ -165,7 +165,7 @@ class RoomsController < ApplicationController
       "humanNumber": "2",
       "clue": "Kann mehr als Reste: Manche brennen darauf, ihn weiterzuverwenden ",
       "direction": "down",
-      "length": 5,
+      "length": 7,
       "group": [
         "2-down"
       ],
@@ -182,7 +182,7 @@ class RoomsController < ApplicationController
       "humanNumber": "3",
       "clue": "Der wäre Gefahrenentschärfer? Das trägt Botschaft! ",
       "direction": "down",
-      "length": 1,
+      "length": 6,
       "group": [
         "3-down"
       ],
@@ -199,7 +199,7 @@ class RoomsController < ApplicationController
       "humanNumber": "4",
       "clue": "Sind für die 13 senkrecht da, und zwar eher für die munteren als für die ... ",
       "direction": "down",
-      "length": 8,
+      "length": 6,
       "group": [
         "4-down"
       ],
@@ -216,7 +216,7 @@ class RoomsController < ApplicationController
       "humanNumber": "5",
       "clue": "Auf seiner Bahn zu sehen, aber auch im Laden zu haben, wenn man sich beeilt ",
       "direction": "down",
-      "length": 10,
+      "length": 6,
       "group": [
         "5-down"
       ],
@@ -250,7 +250,7 @@ class RoomsController < ApplicationController
       "humanNumber": "6",
       "clue": "Staatsvorsatz, und dabei ist nicht nur an Komfortzug und Bequemkarosse gedacht ",
       "direction": "down",
-      "length": 2,
+      "length": 9,
       "group": [
         "6-down"
       ],
@@ -267,7 +267,7 @@ class RoomsController < ApplicationController
       "humanNumber": "7",
       "clue": "Seinetwegen wird öfter mal die Brause, selten der Duschkopf bemühr ",
       "direction": "down",
-      "length": 9,
+      "length": 5,
       "group": [
         "7-down"
       ],
@@ -301,7 +301,7 @@ class RoomsController < ApplicationController
       "humanNumber": "9",
       "clue": "Sprichwörtlich: Die Liebe ist blind, die ... ist hellsichtig ",
       "direction": "down",
-      "length": 7,
+      "length": 3,
       "group": [
         "9-down"
       ],
@@ -335,7 +335,7 @@ class RoomsController < ApplicationController
       "humanNumber": "11",
       "clue": "Fremdlingsfluss in der Philippinenkapitale ",
       "direction": "down",
-      "length": 2,
+      "length": 3,
       "group": [
         "11-down"
       ],
@@ -352,7 +352,7 @@ class RoomsController < ApplicationController
       "humanNumber": "12",
       "clue": "So darf man einen nennen, dem das Moos nicht in der Tasche festgewachsen ",
       "direction": "down",
-      "length": 6,
+      "length": 9,
       "group": [
         "12-down"
       ],
@@ -369,7 +369,7 @@ class RoomsController < ApplicationController
       "humanNumber": "13",
       "clue": "Eine war längst über alle city limits hinaus bekannt, als andere eine Stark wurde ",
       "direction": "down",
-      "length": 5,
+      "length": 6,
       "group": [
         "13-down"
       ],
@@ -403,7 +403,7 @@ class RoomsController < ApplicationController
       "humanNumber": "15",
       "clue": "Waren Wegeerlediger schon zu pferdestärkeren Zeiten ",
       "direction": "down",
-      "length": 4,
+      "length": 9,
       "group": [
         "15-down"
       ],
@@ -437,7 +437,7 @@ class RoomsController < ApplicationController
       "humanNumber": "16",
       "clue": "Wer kein Cash hat, hat schon alle Zeichen jener Frustbereiterin ",
       "direction": "down",
-      "length": 2,
+      "length": 8,
       "group": [
         "16-down"
       ],
@@ -454,7 +454,7 @@ class RoomsController < ApplicationController
       "humanNumber": "17",
       "clue": "Spielen häufig eine Rolle fürs Räumekostüm ",
       "direction": "down",
-      "length": 2,
+      "length": 7,
       "group": [
         "17-down"
       ],
@@ -471,7 +471,7 @@ class RoomsController < ApplicationController
       "humanNumber": "18",
       "clue": "Niemand ist ohne ... außer dem, der keine Fragen stellt (Sprichwort) ",
       "direction": "down",
-      "length": 7,
+      "length": 8,
       "group": [
         "18-down"
       ],
@@ -556,7 +556,7 @@ class RoomsController < ApplicationController
       "humanNumber": "23",
       "clue": "Romeo sieht man dorthin fliehen, und Rigolerto ist schon da ",
       "direction": "down",
-      "length": 4,
+      "length": 6,
       "group": [
         "23-down"
       ],
@@ -573,7 +573,7 @@ class RoomsController < ApplicationController
       "humanNumber": "24",
       "clue": "Seine Verwendung ist eng verflochten mit Möblierung ",
       "direction": "down",
-      "length": 1,
+      "length": 6,
       "group": [
         "24-down"
       ],
@@ -760,7 +760,7 @@ class RoomsController < ApplicationController
       "humanNumber": "35",
       "clue": "Mehr als der Argumentiereifer können oft deren Zungen gewinnen ",
       "direction": "down",
-      "length": 2,
+      "length": 5,
       "group": [
         "35-down"
       ],
@@ -794,7 +794,7 @@ class RoomsController < ApplicationController
       "humanNumber": "37",
       "clue": "Weise: 32 waagerecht, wo der 34 waagerecht auf den Tisch kommt ",
       "direction": "down",
-      "length": 4,
+      "length": 3,
       "group": [
         "37-down"
       ],

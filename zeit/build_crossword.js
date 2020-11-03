@@ -145,7 +145,7 @@ function generateAcrossEntry (row, col, number, cw, hints) {
 function generateDownEntry (row, col, number, cw, hints) {
   if (hints[number]) {
     let i = 1
-    while (!['x', 'a'].includes(cw[row + i][col].slice(-1))) {
+    while (!['x', 'd'].includes(cw[row + i][col].slice(-1))) {
       i++
     }
     const entry = {
