@@ -930,7 +930,7 @@ class RoomsController < ApplicationController
       "humanNumber": "44",
       "clue": "Aus dem Mitleid mit anderen erwächst die feurige, die muntere Barmherzigkeit; aus dem Mitleid mit uns selbst die weichliche, feige ....(M. v. Ebner-Eschenbach) ",
       "direction": "across",
-      "length": 3,
+      "length": 16,
       "group": [
         "44-across"
       ],
@@ -949,7 +949,8 @@ class RoomsController < ApplicationController
     "rows": 11
   },
   "crosswordType": "everyman"
-}|
+}
+|
   cw = JSON.parse(json)
   Oj.dump cw
   end

@@ -51,10 +51,10 @@ class CrosswordFeed
 
   def self.load_zeit 
     crossword = Crossword.new(
-      "title" => 'Zet',
+      "title" => 'Zeit',
       "source" => 'zeit',
       "series" => 'zeit',
-      "identifier" => '2561',
+      "identifier" => '2562',
       "date" => Date.today.to_datetime.xmlschema
     )
     crossword.save
