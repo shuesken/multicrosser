@@ -709,7 +709,7 @@ class RoomsController < ApplicationController
       "humanNumber": "31",
       "clue": "Allzu sehr im Freien saß seine Frühstückerin, fand das Publikum ",
       "direction": "down",
-      "length": 6,
+      "length": 5,
       "group": [
         "31-down"
       ],
@@ -811,7 +811,7 @@ class RoomsController < ApplicationController
       "humanNumber": "37",
       "clue": "Übersee-Übergröße-Miezen ",
       "direction": "down",
-      "length": 4,
+      "length": 5,
       "group": [
         "37-down"
       ],
