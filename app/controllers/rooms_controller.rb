@@ -137,8 +137,8 @@ class RoomsController < ApplicationController
 
   def get_zeit
     json = %q|{
-  "id": 2562,
-  "number": 2562,
+  "id": 2563,
+  "number": 2563,
   "name": "Zeit",
   "date": 1542326400000,
   "entries": [
@@ -146,9 +146,9 @@ class RoomsController < ApplicationController
       "id": "1-down",
       "number": "1",
       "humanNumber": "1",
-      "clue": "Nicht aufgeben: Wie ernten Torwarte Jubel? ",
+      "clue": "Nichtiges Gold stiehlt der Dieb, warme Herzen der ... (russ. Sprichwort) ",
       "direction": "down",
-      "length": 11,
+      "length": 10,
       "group": [
         "1-down"
       ],
@@ -163,9 +163,9 @@ class RoomsController < ApplicationController
       "id": "2-down",
       "number": "2",
       "humanNumber": "2",
-      "clue": "VespasiAnknüpfer ",
+      "clue": "Die des Erdmantels ziehen Bergsteiger an ",
       "direction": "down",
-      "length": 5,
+      "length": 6,
       "group": [
         "2-down"
       ],
@@ -180,14 +180,14 @@ class RoomsController < ApplicationController
       "id": "3-down",
       "number": "3",
       "humanNumber": "3",
-      "clue": "Wer’s robust mag, lässt sich einen Strick daraus drehen ",
+      "clue": "Wo Geld vorangeht, sind alle ... offen (Shakespeare) ",
       "direction": "down",
-      "length": 5,
+      "length": 4,
       "group": [
         "3-down"
       ],
       "position": {
-        "x": 7,
+        "x": 8,
         "y": 0
       },
       "separatorLocations": {},
@@ -197,14 +197,14 @@ class RoomsController < ApplicationController
       "id": "4-down",
       "number": "4",
       "humanNumber": "4",
-      "clue": "In der Lese: keine Männergruppe ",
+      "clue": "Als Teillänge beim Weihnachtenklauer abzulesen ",
       "direction": "down",
-      "length": 5,
+      "length": 4,
       "group": [
         "4-down"
       ],
       "position": {
-        "x": 10,
+        "x": 11,
         "y": 0
       },
       "separatorLocations": {},
@@ -214,9 +214,9 @@ class RoomsController < ApplicationController
       "id": "5-down",
       "number": "5",
       "humanNumber": "5",
-      "clue": "Rasch: den 29 waagerecht nachgesagt als Revierbegrünung ",
+      "clue": "Das ist Kult beim ...: viel Beinfreiheit ",
       "direction": "down",
-      "length": 5,
+      "length": 4,
       "group": [
         "5-down"
       ],
@@ -231,7 +231,7 @@ class RoomsController < ApplicationController
       "id": "6-down",
       "number": "6",
       "humanNumber": "6",
-      "clue": "Kräftigste Verstärkung für der Donau kräftigste Verstärkung ",
+      "clue": "So wird gelebt, wo nur Flora den Tisch deckt ",
       "direction": "down",
       "length": 5,
       "group": [
@@ -248,7 +248,7 @@ class RoomsController < ApplicationController
       "id": "7-across",
       "number": "7",
       "humanNumber": "7",
-      "clue": "Ihr ist nichts Medienkonsumweltliches fremd ",
+      "clue": "Worte, mit Gewicht belegt, der Welt zur Beachtung in Schallwellen formen ",
       "direction": "across",
       "length": 11,
       "group": [
@@ -265,7 +265,7 @@ class RoomsController < ApplicationController
       "id": "7-down",
       "number": "7",
       "humanNumber": "7",
-      "clue": "Fordern im Koch die Bäckertalente ",
+      "clue": "Kultiviere die Kunst, Kollisionen der Kulturen zu vermeiden ",
       "direction": "down",
       "length": 8,
       "group": [
@@ -282,14 +282,14 @@ class RoomsController < ApplicationController
       "id": "8-down",
       "number": "8",
       "humanNumber": "8",
-      "clue": "Stationen im Dienstwegenetz ",
+      "clue": "Felsenfestes Zubehör einer oder vieler ",
       "direction": "down",
-      "length": 9,
+      "length": 3,
       "group": [
         "8-down"
       ],
       "position": {
-        "x": 3,
+        "x": 4,
         "y": 1
       },
       "separatorLocations": {},
@@ -299,9 +299,9 @@ class RoomsController < ApplicationController
       "id": "9-down",
       "number": "9",
       "humanNumber": "9",
-      "clue": "Die Welt, im Bau befindlich, nutzt nichts mehr als ihn ",
+      "clue": "Die Lady, die den buchstäblichen Unterschied ausmacht zwischen nördlichen Zeichen und südöstlichem Volk ",
       "direction": "down",
-      "length": 6,
+      "length": 3,
       "group": [
         "9-down"
       ],
@@ -316,28 +316,11 @@ class RoomsController < ApplicationController
       "id": "10-down",
       "number": "10",
       "humanNumber": "10",
-      "clue": "Die Liebe schenkt ohne Fordern, empfängt ohne ..., verzeiht ohne Zögern (Peter Lippert) ",
-      "direction": "down",
-      "length": 9,
-      "group": [
-        "10-down"
-      ],
-      "position": {
-        "x": 8,
-        "y": 1
-      },
-      "separatorLocations": {},
-      "solution": null
-    },
-    {
-      "id": "11-down",
-      "number": "11",
-      "humanNumber": "11",
-      "clue": "An mehreren ... zu ..., das kann notwendig werden im Rahmen einer Komplettagenda ",
+      "clue": "Kein Angebot allerdings nach nachhaltiger Nachfrage ",
       "direction": "down",
       "length": 5,
       "group": [
-        "11-down"
+        "10-down"
       ],
       "position": {
         "x": 9,
@@ -347,34 +330,51 @@ class RoomsController < ApplicationController
       "solution": null
     },
     {
-      "id": "12-down",
-      "number": "12",
-      "humanNumber": "12",
-      "clue": "Gletscher-Andenken, passt gut in den Pappton ",
-      "direction": "down",
-      "length": 3,
+      "id": "11-across",
+      "number": "11",
+      "humanNumber": "11",
+      "clue": "Baumlanger Abschnitt der Leibesübungen ",
+      "direction": "across",
+      "length": 4,
       "group": [
-        "12-down"
+        "11-across"
       ],
       "position": {
-        "x": 11,
+        "x": 12,
         "y": 1
       },
       "separatorLocations": {},
       "solution": null
     },
     {
-      "id": "13-across",
-      "number": "13",
-      "humanNumber": "13",
-      "clue": "Klingt nämlich fast wie Stimmungsaufhella-Wort aus dem Wertabericht ",
-      "direction": "across",
-      "length": 5,
+      "id": "11-down",
+      "number": "11",
+      "humanNumber": "11",
+      "clue": "Haben alle mal Ja — und also Nein zum 25-senkrecht-Sein — gesagt ",
+      "direction": "down",
+      "length": 8,
       "group": [
-        "13-across"
+        "11-down"
       ],
       "position": {
         "x": 12,
+        "y": 1
+      },
+      "separatorLocations": {},
+      "solution": null
+    },
+    {
+      "id": "12-down",
+      "number": "12",
+      "humanNumber": "12",
+      "clue": "Hat ausgelacht, wird ausgelacht in der Zeit der Dominanz der Karten ",
+      "direction": "down",
+      "length": 5,
+      "group": [
+        "12-down"
+      ],
+      "position": {
+        "x": 14,
         "y": 1
       },
       "separatorLocations": {},
@@ -384,14 +384,14 @@ class RoomsController < ApplicationController
       "id": "13-down",
       "number": "13",
       "humanNumber": "13",
-      "clue": "Kundenkreisförmiges Gebilde ",
+      "clue": "Die meisten Menschen brauchen mehr Liebe, als sie ... (M. v. Ebner-Eschenbach) ",
       "direction": "down",
-      "length": 8,
+      "length": 9,
       "group": [
         "13-down"
       ],
       "position": {
-        "x": 12,
+        "x": 16,
         "y": 1
       },
       "separatorLocations": {},
@@ -401,9 +401,9 @@ class RoomsController < ApplicationController
       "id": "14-across",
       "number": "14",
       "humanNumber": "14",
-      "clue": "Gut Ding will Weile haben und ihm unterzogen sein ",
+      "clue": "Ohne wäre der Tornado kein Tornado ",
       "direction": "across",
-      "length": 9,
+      "length": 6,
       "group": [
         "14-across"
       ],
@@ -418,14 +418,14 @@ class RoomsController < ApplicationController
       "id": "15-down",
       "number": "15",
       "humanNumber": "15",
-      "clue": "..., Geschwätzigkeit, Eitelkeit sind von der gleichen Art. In jedem Lande, zu jeder Zeit sind sie mit Dummheit gepaart (Jean de La Fontaine) ",
+      "clue": "Hegt den Vorsatz, was für den Umsatz anderer zu tun ",
       "direction": "down",
-      "length": 7,
+      "length": 9,
       "group": [
         "15-down"
       ],
       "position": {
-        "x": 4,
+        "x": 3,
         "y": 2
       },
       "separatorLocations": {},
@@ -435,14 +435,14 @@ class RoomsController < ApplicationController
       "id": "16-across",
       "number": "16",
       "humanNumber": "16",
-      "clue": "Die Spiegel in den Räumlichkeiten der Sprache ",
+      "clue": "Wie Glocke immer wieder, so der Bazillenträger zur Infektionshochsaison ",
       "direction": "across",
-      "length": 9,
+      "length": 12,
       "group": [
         "16-across"
       ],
       "position": {
-        "x": 9,
+        "x": 6,
         "y": 2
       },
       "separatorLocations": {},
@@ -452,14 +452,14 @@ class RoomsController < ApplicationController
       "id": "17-down",
       "number": "17",
       "humanNumber": "17",
-      "clue": "Kurz: sorgt für Kassenklingeln bei Musikschaffenden ",
+      "clue": "Ein Benehmen wie ein solcher — so kommt man in die Chroniken als Känguru ",
       "direction": "down",
-      "length": 4,
+      "length": 8,
       "group": [
         "17-down"
       ],
       "position": {
-        "x": 14,
+        "x": 7,
         "y": 2
       },
       "separatorLocations": {},
@@ -469,14 +469,14 @@ class RoomsController < ApplicationController
       "id": "18-down",
       "number": "18",
       "humanNumber": "18",
-      "clue": "Mehr als aufmerkwürdig, geradezu insaugesprunghaft ",
+      "clue": "Viele Leute auch, in gewisser HaZweiOrientierung ",
       "direction": "down",
-      "length": 8,
+      "length": 7,
       "group": [
         "18-down"
       ],
       "position": {
-        "x": 16,
+        "x": 10,
         "y": 2
       },
       "separatorLocations": {},
@@ -486,9 +486,9 @@ class RoomsController < ApplicationController
       "id": "19-across",
       "number": "19",
       "humanNumber": "19",
-      "clue": "Distanz-Überwinder darf’s nicht sein ",
+      "clue": "Malheur: Wer ... ging, also machte, der ist’s ",
       "direction": "across",
-      "length": 5,
+      "length": 6,
       "group": [
         "19-across"
       ],
@@ -503,14 +503,14 @@ class RoomsController < ApplicationController
       "id": "20-across",
       "number": "20",
       "humanNumber": "20",
-      "clue": "Garniertem fehlt nichts, um — wohlgeordnet — Gärten aufzuhübschen ",
+      "clue": "Sinnt auf Sinnesverwöhnung ",
       "direction": "across",
-      "length": 10,
+      "length": 7,
       "group": [
         "20-across"
       ],
       "position": {
-        "x": 6,
+        "x": 7,
         "y": 3
       },
       "separatorLocations": {},
@@ -520,15 +520,15 @@ class RoomsController < ApplicationController
       "id": "21-across",
       "number": "21",
       "humanNumber": "21",
-      "clue": "Im Korrespondentenfokus oft insbesondere jenes in White ",
+      "clue": "Einstufung der Dinge im Falle von viel Wenigkeit ",
       "direction": "across",
-      "length": 5,
+      "length": 3,
       "group": [
         "21-across"
       ],
       "position": {
-        "x": 2,
-        "y": 4
+        "x": 14,
+        "y": 3
       },
       "separatorLocations": {},
       "solution": null
@@ -537,14 +537,14 @@ class RoomsController < ApplicationController
       "id": "22-across",
       "number": "22",
       "humanNumber": "22",
-      "clue": "Leere Töpfe machen den größten ... (Sprichwort) ",
+      "clue": "Anbahner des Wegs des Erdöls durch die Wüste ",
       "direction": "across",
-      "length": 5,
+      "length": 7,
       "group": [
         "22-across"
       ],
       "position": {
-        "x": 7,
+        "x": 1,
         "y": 4
       },
       "separatorLocations": {},
@@ -554,31 +554,31 @@ class RoomsController < ApplicationController
       "id": "23-down",
       "number": "23",
       "humanNumber": "23",
-      "clue": "Auf Kalkdünger mag verzichten, wer solchen Boden bebaut ",
+      "clue": "Zu kurz das Zeichen, um BriefBeiwerk zu sein ",
       "direction": "down",
-      "length": 6,
+      "length": 5,
       "group": [
         "23-down"
       ],
       "position": {
-        "x": 11,
+        "x": 4,
         "y": 4
       },
       "separatorLocations": {},
       "solution": null
     },
     {
-      "id": "24-across",
+      "id": "24-down",
       "number": "24",
       "humanNumber": "24",
-      "clue": "Erstreckt sich von Mittag bis Mittag, für Seemeilensammler ",
-      "direction": "across",
-      "length": 5,
+      "clue": "Genau der, der exakt erklären kann, warum er so 27 senkrecht ist ",
+      "direction": "down",
+      "length": 6,
       "group": [
-        "24-across"
+        "24-down"
       ],
       "position": {
-        "x": 12,
+        "x": 6,
         "y": 4
       },
       "separatorLocations": {},
@@ -588,11 +588,79 @@ class RoomsController < ApplicationController
       "id": "25-across",
       "number": "25",
       "humanNumber": "25",
-      "clue": "Liebe und Ehe sind voll Honig und ... (Sprichwort) ",
+      "clue": "Die neigen zu Verhedderung, das wirkt wie Entblätterung ",
       "direction": "across",
-      "length": 4,
+      "length": 8,
       "group": [
         "25-across"
+      ],
+      "position": {
+        "x": 8,
+        "y": 4
+      },
+      "separatorLocations": {},
+      "solution": null
+    },
+    {
+      "id": "25-down",
+      "number": "25",
+      "humanNumber": "25",
+      "clue": "Auf-der-Suche-Lebensform, mehr oder weniger ",
+      "direction": "down",
+      "length": 6,
+      "group": [
+        "25-down"
+      ],
+      "position": {
+        "x": 8,
+        "y": 4
+      },
+      "separatorLocations": {},
+      "solution": null
+    },
+    {
+      "id": "26-down",
+      "number": "26",
+      "humanNumber": "26",
+      "clue": "Mit vielen winzigen Beiträgen macht sie summa summarum ein Geschäft ",
+      "direction": "down",
+      "length": 7,
+      "group": [
+        "26-down"
+      ],
+      "position": {
+        "x": 11,
+        "y": 4
+      },
+      "separatorLocations": {},
+      "solution": null
+    },
+    {
+      "id": "27-down",
+      "number": "27",
+      "humanNumber": "27",
+      "clue": "Wie einer wirkt, für den alles sein muss, wie es sein muss ",
+      "direction": "down",
+      "length": 7,
+      "group": [
+        "27-down"
+      ],
+      "position": {
+        "x": 13,
+        "y": 4
+      },
+      "separatorLocations": {},
+      "solution": null
+    },
+    {
+      "id": "28-across",
+      "number": "28",
+      "humanNumber": "28",
+      "clue": "Waltet, wo in uns der Automat erwachte? ",
+      "direction": "across",
+      "length": 7,
+      "group": [
+        "28-across"
       ],
       "position": {
         "x": 0,
@@ -602,48 +670,14 @@ class RoomsController < ApplicationController
       "solution": null
     },
     {
-      "id": "26-across",
-      "number": "26",
-      "humanNumber": "26",
-      "clue": "Erweist sich als durchaus erfolgreich in Fluganstrengungen ",
+      "id": "29-across",
+      "number": "29",
+      "humanNumber": "29",
+      "clue": "Ersatzbezeichnung für eine wie 38 senkrecht ",
       "direction": "across",
-      "length": 4,
+      "length": 3,
       "group": [
-        "26-across"
-      ],
-      "position": {
-        "x": 4,
-        "y": 5
-      },
-      "separatorLocations": {},
-      "solution": null
-    },
-    {
-      "id": "27-down",
-      "number": "27",
-      "humanNumber": "27",
-      "clue": "Fabelhafte Weltbürgerin der glücksbringenden Pläne ",
-      "direction": "down",
-      "length": 6,
-      "group": [
-        "27-down"
-      ],
-      "position": {
-        "x": 5,
-        "y": 5
-      },
-      "separatorLocations": {},
-      "solution": null
-    },
-    {
-      "id": "28-down",
-      "number": "28",
-      "humanNumber": "28",
-      "clue": "Das macht 22 waagerecht, sei’s im Wald, sei’s im Bett ",
-      "direction": "down",
-      "length": 6,
-      "group": [
-        "28-down"
+        "29-across"
       ],
       "position": {
         "x": 7,
@@ -653,31 +687,14 @@ class RoomsController < ApplicationController
       "solution": null
     },
     {
-      "id": "29-across",
-      "number": "29",
-      "humanNumber": "29",
-      "clue": "Wo welche auftauchen, bemerkt man gleich die Verwandtschaft zur 26 waagerecht ",
-      "direction": "across",
-      "length": 5,
-      "group": [
-        "29-across"
-      ],
-      "position": {
-        "x": 8,
-        "y": 5
-      },
-      "separatorLocations": {},
-      "solution": null
-    },
-    {
-      "id": "30-down",
+      "id": "30-across",
       "number": "30",
       "humanNumber": "30",
-      "clue": "Schein, aus Beweisgründen zu wahren ",
-      "direction": "down",
-      "length": 6,
+      "clue": "Motiv im Rahmen des Familienfotomachens ",
+      "direction": "across",
+      "length": 3,
       "group": [
-        "30-down"
+        "30-across"
       ],
       "position": {
         "x": 10,
@@ -690,7 +707,7 @@ class RoomsController < ApplicationController
       "id": "31-across",
       "number": "31",
       "humanNumber": "31",
-      "clue": "Gern angesprochen vom enfant — nicht nur des Reimes wegen ",
+      "clue": "Wer erst ... gekostet, dem schmeckt der Honig umso süßer (Sprichwort) ",
       "direction": "across",
       "length": 5,
       "group": [
@@ -704,29 +721,12 @@ class RoomsController < ApplicationController
       "solution": null
     },
     {
-      "id": "31-down",
-      "number": "31",
-      "humanNumber": "31",
-      "clue": "Allzu sehr im Freien saß seine Frühstückerin, fand das Publikum ",
-      "direction": "down",
-      "length": 5,
-      "group": [
-        "31-down"
-      ],
-      "position": {
-        "x": 13,
-        "y": 5
-      },
-      "separatorLocations": {},
-      "solution": null
-    },
-    {
       "id": "32-down",
       "number": "32",
       "humanNumber": "32",
-      "clue": "Rest von Alphabetes Schluss, in Millionenfach-Verwendung ",
+      "clue": "Das nutzen Schnellhörer als -notierer ",
       "direction": "down",
-      "length": 4,
+      "length": 5,
       "group": [
         "32-down"
       ],
@@ -741,28 +741,45 @@ class RoomsController < ApplicationController
       "id": "33-across",
       "number": "33",
       "humanNumber": "33",
-      "clue": "Strömt sehr meerfern, kann kein Meer erreichen ",
+      "clue": "Aufpustewort jenseits der Kilo-Sphäre ",
       "direction": "across",
-      "length": 5,
+      "length": 4,
       "group": [
         "33-across"
       ],
       "position": {
-        "x": 1,
+        "x": 2,
         "y": 6
       },
       "separatorLocations": {},
       "solution": null
     },
     {
-      "id": "34-across",
+      "id": "34-down",
       "number": "34",
       "humanNumber": "34",
-      "clue": "Quillt recht altmühlnah, strebt ganz anderen Gewässern zu ",
-      "direction": "across",
-      "length": 6,
+      "clue": "Eine Sache auf Anglo-Lateinisch? Ein Gewaltbereiter auf Altgriechisch! ",
+      "direction": "down",
+      "length": 4,
       "group": [
-        "34-across"
+        "34-down"
+      ],
+      "position": {
+        "x": 5,
+        "y": 6
+      },
+      "separatorLocations": {},
+      "solution": null
+    },
+    {
+      "id": "35-across",
+      "number": "35",
+      "humanNumber": "35",
+      "clue": "Sprichwörtlich: Die Kuh sagt nicht ... zur Weide ",
+      "direction": "across",
+      "length": 5,
+      "group": [
+        "35-across"
       ],
       "position": {
         "x": 6,
@@ -772,14 +789,14 @@ class RoomsController < ApplicationController
       "solution": null
     },
     {
-      "id": "35-down",
-      "number": "35",
-      "humanNumber": "35",
-      "clue": "Qualität der Welt, die Schwarzweiß-Denker fürchten ",
+      "id": "36-down",
+      "number": "36",
+      "humanNumber": "36",
+      "clue": "Ein Standardartikel aus der Milchgetränkefirma ",
       "direction": "down",
-      "length": 4,
+      "length": 5,
       "group": [
-        "35-down"
+        "36-down"
       ],
       "position": {
         "x": 9,
@@ -789,31 +806,31 @@ class RoomsController < ApplicationController
       "solution": null
     },
     {
-      "id": "36-across",
-      "number": "36",
-      "humanNumber": "36",
-      "clue": "Heimlichtuer ist leicht aufgebracht, wird was draufgebracht ",
+      "id": "37-across",
+      "number": "37",
+      "humanNumber": "37",
+      "clue": "Ein Moment im Häuschen: Wasserwegnutzer ",
       "direction": "across",
-      "length": 5,
+      "length": 6,
       "group": [
-        "36-across"
+        "37-across"
       ],
       "position": {
-        "x": 12,
+        "x": 11,
         "y": 6
       },
       "separatorLocations": {},
       "solution": null
     },
     {
-      "id": "37-down",
-      "number": "37",
-      "humanNumber": "37",
-      "clue": "Übersee-Übergröße-Miezen ",
+      "id": "38-down",
+      "number": "38",
+      "humanNumber": "38",
+      "clue": "Zwei Nachbarbuchstaben, eine Dame ",
       "direction": "down",
-      "length": 5,
+      "length": 3,
       "group": [
-        "37-down"
+        "38-down"
       ],
       "position": {
         "x": 14,
@@ -823,14 +840,14 @@ class RoomsController < ApplicationController
       "solution": null
     },
     {
-      "id": "38-across",
-      "number": "38",
-      "humanNumber": "38",
-      "clue": "Schafft schlängellineare Verbindung zwischen Seenplattenseen ",
+      "id": "39-across",
+      "number": "39",
+      "humanNumber": "39",
+      "clue": "Schärfstens: wacht über den Bundestag ",
       "direction": "across",
-      "length": 4,
+      "length": 9,
       "group": [
-        "38-across"
+        "39-across"
       ],
       "position": {
         "x": 1,
@@ -840,34 +857,17 @@ class RoomsController < ApplicationController
       "solution": null
     },
     {
-      "id": "39-across",
-      "number": "39",
-      "humanNumber": "39",
-      "clue": "Feuerberg auf Eiskontinent ",
-      "direction": "across",
-      "length": 6,
-      "group": [
-        "39-across"
-      ],
-      "position": {
-        "x": 5,
-        "y": 7
-      },
-      "separatorLocations": {},
-      "solution": null
-    },
-    {
-      "id": "40-down",
+      "id": "40-across",
       "number": "40",
       "humanNumber": "40",
-      "clue": "Fachmanns Kürzel für die Zeit nachtaktiver Augen ",
-      "direction": "down",
-      "length": 3,
+      "clue": "Sollten wachsen mit geleisteten Aufgaben, gemeisterten Pflichten ",
+      "direction": "across",
+      "length": 7,
       "group": [
-        "40-down"
+        "40-across"
       ],
       "position": {
-        "x": 6,
+        "x": 10,
         "y": 7
       },
       "separatorLocations": {},
@@ -877,28 +877,11 @@ class RoomsController < ApplicationController
       "id": "41-across",
       "number": "41",
       "humanNumber": "41",
-      "clue": "Sprichwörtlich: Zeit hätte man wohl ..., wenn man sie nur wohl anlegte ",
+      "clue": "Ob wir etwas als angenehm oder unangenehm empfinden, hängt größtenteils davon ab, wie wir uns dazu ... (M. de Montaigne) ",
       "direction": "across",
-      "length": 5,
+      "length": 7,
       "group": [
         "41-across"
-      ],
-      "position": {
-        "x": 11,
-        "y": 7
-      },
-      "separatorLocations": {},
-      "solution": null
-    },
-    {
-      "id": "42-across",
-      "number": "42",
-      "humanNumber": "42",
-      "clue": "Platzdeckenverwendung wie auch Platziertenstatus ",
-      "direction": "across",
-      "length": 10,
-      "group": [
-        "42-across"
       ],
       "position": {
         "x": 0,
@@ -908,17 +891,34 @@ class RoomsController < ApplicationController
       "solution": null
     },
     {
+      "id": "42-across",
+      "number": "42",
+      "humanNumber": "42",
+      "clue": "Besonderer Tritt im Spiel, Sonderfall von Rat im Spaß ",
+      "direction": "across",
+      "length": 5,
+      "group": [
+        "42-across"
+      ],
+      "position": {
+        "x": 7,
+        "y": 8
+      },
+      "separatorLocations": {},
+      "solution": null
+    },
+    {
       "id": "43-across",
       "number": "43",
       "humanNumber": "43",
-      "clue": "Fernseh-Mitarbeiter? Ba-Rockstar! ",
+      "clue": "Lieblingsreviere der Bequemradler ",
       "direction": "across",
-      "length": 8,
+      "length": 6,
       "group": [
         "43-across"
       ],
       "position": {
-        "x": 10,
+        "x": 12,
         "y": 8
       },
       "separatorLocations": {},
@@ -928,14 +928,31 @@ class RoomsController < ApplicationController
       "id": "44-across",
       "number": "44",
       "humanNumber": "44",
-      "clue": "Aus dem Mitleid mit anderen erwächst die feurige, die muntere Barmherzigkeit; aus dem Mitleid mit uns selbst die weichliche, feige ....(M. v. Ebner-Eschenbach) ",
+      "clue": "Der jagt hoch, was die Kundschaft gern unten sähe ",
       "direction": "across",
-      "length": 16,
+      "length": 12,
       "group": [
         "44-across"
       ],
       "position": {
         "x": 1,
+        "y": 9
+      },
+      "separatorLocations": {},
+      "solution": null
+    },
+    {
+      "id": "45-across",
+      "number": "45",
+      "humanNumber": "45",
+      "clue": "Aus dem Portlandumland ein Knabe ",
+      "direction": "across",
+      "length": 4,
+      "group": [
+        "45-across"
+      ],
+      "position": {
+        "x": 13,
         "y": 9
       },
       "separatorLocations": {},
@@ -948,7 +965,7 @@ class RoomsController < ApplicationController
     "cols": 18,
     "rows": 11
   },
-  "crosswordType": "everyman"
+  "crosswordType": "quiptic"
 }
 |
   cw = JSON.parse(json)

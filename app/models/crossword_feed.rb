@@ -54,7 +54,7 @@ class CrosswordFeed
       "title" => 'Zeit',
       "source" => 'zeit',
       "series" => 'zeit',
-      "identifier" => '2562',
+      "identifier" => '2563',
       "date" => Date.today.to_datetime.xmlschema
     )
     crossword.save
